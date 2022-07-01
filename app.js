@@ -1,5 +1,5 @@
 const scoreDisplay = document.querySelector('h1');
-const maxScoreInput = document.querySelector('input');
+const maxScoreInput = document.querySelector('select');
 const playerOneButton = document.querySelector('#playerOne');
 const playerTwoButton = document.querySelector('#playerTwo');
 const resetButton = document.querySelector('#reset');
