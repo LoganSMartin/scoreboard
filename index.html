@@ -8,7 +8,25 @@
     <title>Scoreboard</title>
 </head>
 <body>
-    
+    <div id="container">
+        <section>
+            <img src="https://images.unsplash.com/photo-1609710228159-0fa9bd7c0827?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" 
+            alt="Image of a ping ping paddle and ball.">
+            <p>Ping pong Score Keeper</p>
+        </section>
+        <section>
+            <h1><b>0 to 0</b></h1>
+            <p>Use the buttons below to keep score.</p>
+            <label for="maxScore"><b>Playing to</b></label>
+            <input type="number" name="maxScore" id="maxScore" min="5" max="10"
+            value="7">
+        </section>
+        <section>
+            <button>+1 Player One</button>
+            <button>+1 Player Two</button>
+            <button>Reset</button>
+        </section>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
